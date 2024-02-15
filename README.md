@@ -24,7 +24,7 @@ En el caso de Angular:
 
 
 ## Prueba técnica
-Usando la estructura vista en las imágenes proporcionadas como referencia, deberá crear un conjunto de pantallas y componentes React para crear la aplicación solicitada.
+Usando la estructura vista en las imágenes proporcionadas como referencia, deberá crear un conjunto de pantallas y componentes  para crear la aplicación solicitada.
 
 Se deberá incluir también `README` con instrucciones de configuración/ejecución y cualquier prueba u otra documentación que haya creado como parte de su solución.
 
@@ -36,7 +36,7 @@ Además, agregue la siguiente información a su archivo `README`:
 
 
 ## Detalles
-Necesitará construir las siguientes 3 páginas con React:
+Necesitará construir las siguientes 3 páginas:
 
 - Una página de "Inicio"
 - Una página de "Series"
@@ -102,7 +102,8 @@ También necesitará manejar los estados de carga/loading y error de obtener los
 
 Para el desarrollo de la aplicación deberá utilizar:
 
-- React / React Hooks
+- React / React Hooks / Angular
+- Functional components (React)
 - Redux
 - Librería de estilos (styled-components, CSS modules, o similar)
 - Mobile friendly
@@ -115,7 +116,7 @@ Para el desarrollo de la aplicación deberá utilizar:
 
 Importante saber:
 - No es necesario crear un entorno de desarrollo/producción.
-- Se pueden utilizar otras librerías que crea conveniente, aunque se recomienda proporcionar una solución básica ajustada a lo solicitado, ya que nuestro objetivo principal es evaluar sus habilidades con React y Javascript.
+- Se pueden utilizar otras librerías que crea conveniente, aunque se recomienda proporcionar una solución básica ajustada a lo solicitado, ya que nuestro objetivo principal es evaluar sus habilidades con React, Angular y Javascript.
 - Como empresa, creemos que la comunicación es la clave del éxito. Entonces, si algo no está claro, o si tiene dudas sobre la tarea, consultanos!
 
 
