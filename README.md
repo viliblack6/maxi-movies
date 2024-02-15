@@ -1,10 +1,12 @@
-![](assets/logo-gray.png)
-# Prueba técnica — React developer
+<!-- ![](assets/maxisend-trans.png) -->
+<img src="assets/maxisend-trans.png" alt="logo" width="100px" /> <br />
+
+# Prueba técnica — Frontend developer
 
 
 ## Objetivo
 
-El objetivo de esta prueba técnica es que el candidato muestre sus habilidades con las herramientas que utilizará luego en su trabajo diario en chedoc. Está diseñado para verificar las habilidades de desarrollo front-end utilizando React y su capacidad para resolver problemas.
+El objetivo de esta prueba técnica es que el candidato muestre sus habilidades con las herramientas que utilizará luego en su trabajo diario en MaxiSend. Está diseñado para verificar las habilidades de desarrollo front-end utilizando React o Angular y su capacidad para resolver problemas.
 
 Pondremos el foco en obtener un **código simple, bien diseñado y organizado, eficaz y testeado**, así como el cumplimiento de todos los requerimientos solicitados.
 
@@ -14,7 +16,11 @@ Pondremos el foco en obtener un **código simple, bien diseñado y organizado, e
 - Se deberá clonar este repositorio para poder modificarlo y completarlo con la resolución del proyecto.
 - Una vez que su código esté listo, suba el código a un repositorio público propio y envíenos el enlace a dicho repositorio para que lo revisaremos.
 
+En el caso de React:
 > Se pueden utilizar herramientas como [create-react-app](https://github.com/facebookincubator/create-react-app) y similares para inicializar el proyecto.
+
+En el caso de Angular:
+> Se pueden utilizar herramientas como [ng new angular-name-your-app](https://docs.angular.lat/tutorial/toh-pt0) y similares para inicializar el proyecto.
 
 
 ## Prueba técnica
