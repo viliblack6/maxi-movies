@@ -1,0 +1,9 @@
+{
+  "workbench.colorCustomizations": {
+    "Night Owl Light (No Italics)": {
+      "titleBar.activeBackground": "#d0393e",
+      "titleBar.activeForeground": "#d0393e"
+    }
+  },
+  "editor.tabSize": 2
+}
