@@ -7,9 +7,8 @@ const AppFooter: FC<IAppFooterProps> = ({}) => {
   const { classes } = useStyles()
 
   return (
-    <Box>
+    <Box className={classes.appFooter}>
       <Container maxWidth="xl">
-        AppFooter
       </Container>
     </Box>
   )

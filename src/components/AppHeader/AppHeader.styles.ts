@@ -8,6 +8,12 @@ export const useStyles = makeStyles()(theme => ({
     fontSize: 30,
     fontWeight: 500,
     cursor: 'pointer',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 20,
+    },
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 16,
+    },
   },
   subtitle: {
     fontSize: 24,

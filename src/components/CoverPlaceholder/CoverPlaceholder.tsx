@@ -3,7 +3,7 @@ import { Box, Typography } from '@mui/material'
 import { ICoverPlaceholderProps } from './CoverPlaceholder.types'
 import { useStyles } from './CoverPlaceholder.styles'
 
-const CoverPlaceholder: FC<ICoverPlaceholderProps> = ({ title, coverPath, onClick }) => {
+const CoverPlaceholder: FC<ICoverPlaceholderProps> = ({ title, coverPath, onClick, onTitleClick }) => {
   const { classes } = useStyles()
 
   return (
@@ -13,7 +13,6 @@ const CoverPlaceholder: FC<ICoverPlaceholderProps> = ({ title, coverPath, onClic
         {title && coverPath && (<img src={coverPath} width="100%" height="100%" />)}
       </Box>
       {coverPath && (
-
         <Box maxWidth="140px">
           <Typography
             variant="body2"
@@ -21,6 +20,8 @@ const CoverPlaceholder: FC<ICoverPlaceholderProps> = ({ title, coverPath, onClic
             whiteSpace="nowrap"
             overflow="hidden"
             textOverflow="ellipsis"
+            fontWeight="100"
+            onClick={onTitleClick}
           >
             {title}
           </Typography>

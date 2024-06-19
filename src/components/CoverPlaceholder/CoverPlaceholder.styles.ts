@@ -11,7 +11,7 @@ export const useStyles = makeStyles()(theme => ({
     backgroundImage: 'url(/assets/placeholder.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    marginRight: 20,
+    marginRight: 10,
     cursor: 'pointer',
   },
   title: {

@@ -1,5 +1,6 @@
 export interface ICoverPlaceholderProps {
   title?: string
   coverPath?: string
-  onClick: () => void
+  onClick?: () => void
+  onTitleClick?: () => void
 }

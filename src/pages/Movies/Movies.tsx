@@ -3,12 +3,13 @@ import { Box } from '@mui/material'
 import { useGlobalState } from 'GlobalState/GlobalState'
 import AppLayout from 'components/AppLayout'
 import CoverPlaceholder from 'components/CoverPlaceholder'
+import DataDialog from 'components/DataDialog'
+import { useDataDialog } from 'components/DataDialog/DataDialog.hook'
 import { IMoviesProps } from './Movies.types'
-import { useStyles } from './Movies.styles'
 
 const Movies: FC<IMoviesProps> = ({}) => {
-  const { classes } = useStyles()
   const { state: { entries } } = useGlobalState()
+  const { data, handleCloseDialog, handleCoverClick } = useDataDialog()
 
   return (
     <AppLayout>
@@ -22,11 +23,12 @@ const Movies: FC<IMoviesProps> = ({}) => {
                 <CoverPlaceholder
                   title={x.title}
                   coverPath={x.images['Poster Art'].url}
-                  onClick={() => console.log("Hola")}
+                  onTitleClick={(): void => handleCoverClick(x)}
                 />
               </Box>
             )
           })}
+        <DataDialog data={data} handleCloseDialog={handleCloseDialog} />
       </Box>
     </AppLayout>
   )
