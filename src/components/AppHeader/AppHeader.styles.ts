@@ -15,12 +15,18 @@ export const useStyles = makeStyles()(theme => ({
   btnLogin: {
     boxShadow: 'none',
     textTransform: 'none',
-
+    '&:hover' :{
+      boxShadow: 'none',
+    },
   },
   btnTrial: {
     boxShadow: 'none',
     textTransform: 'none',
     backgroundColor: theme.palette.grey[800],
     borderRadius: 0,
+    '&:hover' :{
+      backgroundColor: theme.palette.grey[800],
+      boxShadow: 'none',
+    },
   },
 }))
