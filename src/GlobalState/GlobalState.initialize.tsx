@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
 import { useEffectOnce } from 'react-use'
+import AppLayout from 'components/AppLayout'
 import { useGlobalState, actions } from '.'
 
 const { loadData } = actions
@@ -7,10 +8,9 @@ const { loadData } = actions
 export const GlobalStateInitialize = (Component: FC): FC => {
   const Wrapper: FC = props => {
     const {
-      state: { isLoaded },
+      state: { isLoaded, hasError },
       dispatch,
     } = useGlobalState()
-    
 
     useEffectOnce(() => {
       if (!isLoaded) {
@@ -18,6 +18,9 @@ export const GlobalStateInitialize = (Component: FC): FC => {
       }
     })
 
+    if (isLoaded && hasError) {
+      return <AppLayout>Error al obtener data</AppLayout>
+    }
 
     return <Component {...props} />
   }

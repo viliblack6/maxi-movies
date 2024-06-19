@@ -5,5 +5,7 @@ export const useStyles = makeStyles()(theme => ({
     display: 'flex',
     flexDirection: 'row',
     minHeight: 'calc(100vh - 364px)',
+    paddingTop: 30,
+    paddingBootom: 30,
   },
 }))

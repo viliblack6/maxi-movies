@@ -18,7 +18,7 @@ export type Data = {
   description: string,
   programType: string,
   images: Images,
-  releaseYear: number,
+  releaseYear?: number,
 }
 
 export type StoreState = {

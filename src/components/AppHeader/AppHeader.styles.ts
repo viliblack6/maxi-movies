@@ -7,6 +7,7 @@ export const useStyles = makeStyles()(theme => ({
   title: {
     fontSize: 30,
     fontWeight: 500,
+    cursor: 'pointer',
   },
   subtitle: {
     fontSize: 24,
