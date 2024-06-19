@@ -1,10 +1,9 @@
 import React, { FC } from 'react'
 import { Box, AppBar, Container, Toolbar, Typography, Button } from '@mui/material'
 import { useNavigate, useLocation } from 'react-router-dom'
-import { IAppHeaderProps } from './AppHeader.types'
 import { useStyles } from './AppHeader.styles'
 
-const AppHeader: FC<IAppHeaderProps> = ({}) => {
+const AppHeader: FC = () => {
   const { classes } = useStyles()
   const { pathname } = useLocation()
   const navigate = useNavigate()

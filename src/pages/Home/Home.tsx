@@ -3,10 +3,9 @@ import { Box } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import AppLayout from 'components/AppLayout'
 import CoverPlaceholder from 'components/CoverPlaceholder'
-import { IHomeProps } from './Home.types'
 import { useStyles } from './Home.styles'
 
-const Home: FC<IHomeProps> = ({}) => {
+const Home: FC = () => {
   const { classes } = useStyles()
   const navigate = useNavigate()
 

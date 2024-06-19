@@ -1,15 +1,12 @@
 import React, { FC } from 'react'
-import { Box } from '@mui/material'
-import { INotFoundProps } from './NotFound.types'
-import { useStyles } from './NotFound.styles'
+import AppLayout from 'components/AppLayout'
 
-const NotFound: FC<INotFoundProps> = ({}) => {
-  const { classes } = useStyles()
+const NotFound: FC = () => {
 
   return (
-    <Box>
-        NotFound
-    </Box>
+    <AppLayout>
+      NotFound
+    </AppLayout>
   )
 }
 

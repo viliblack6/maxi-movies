@@ -5,9 +5,8 @@ import AppLayout from 'components/AppLayout'
 import CoverPlaceholder from 'components/CoverPlaceholder'
 import DataDialog from 'components/DataDialog'
 import { useDataDialog } from 'components/DataDialog/DataDialog.hook'
-import { ISeriesProps } from './Series.types'
 
-const Series: FC<ISeriesProps> = ({}) => {
+const Series: FC = () => {
   const { state: { entries } } = useGlobalState()
 
   const { data, handleCloseDialog, handleCoverClick } = useDataDialog()
